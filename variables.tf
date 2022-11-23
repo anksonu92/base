@@ -25,7 +25,7 @@ variable "key_vault" {
     }))
   })
   default = {
-    name            = "lens-kv"
+    name            = "lens-kv1"
     access_model    = "rbac"
     access_policies = {}
     rbac_roles      = {}
